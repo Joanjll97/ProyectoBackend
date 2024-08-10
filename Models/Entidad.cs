@@ -11,7 +11,7 @@ public class Entidad
         {
             propiedades = new Dictionary<string, object?>();
         }
-    public Entidad(Dictionary<string, object?> initialProperties)
+        public Entidad(Dictionary<string, object?> initialProperties)
         {
             propiedades = initialProperties ?? new Dictionary<string, object?>();
         }
